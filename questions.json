@@ -1,0 +1,147 @@
+[
+  {
+    "id": 1,
+    "type": "text",
+    "difficulty": "easy",
+    "title": "כמה נרות מדליקים?",
+    "prompt": "כמה נרות מדליקים בסך הכול לאורך כל שמונת ימי חנוכה (כולל השמש בכל יום)?",
+    "hint": "בכל ערב מוסיפים נר, והשמש תמיד.",
+    "acceptedAnswers": ["44", "ארבעים וארבע", "ארבעיםוארבע"],
+    "points": 1
+  },
+  {
+    "id": 2,
+    "type": "wordplay",
+    "difficulty": "easy",
+    "title": "משחק מילים",
+    "prompt": "מילה אחת שמתחילה ב\"ח\" ומסתיימת ב\"ה\" ומתאימה לחנוכה.",
+    "hint": "שם החג עצמו עובד 🙂",
+    "acceptedAnswers": ["חנוכה", "חנכה"],
+    "points": 1
+  },
+  {
+    "id": 3,
+    "type": "logic",
+    "difficulty": "medium",
+    "title": "היגיון: סדר הדלקה",
+    "prompt": "אם הדלקנו נרות משמאל לימין בטעות בערב השלישי – כמה נרות היינו מדליקים עדיין?",
+    "hint": "הטעות היא בסדר, לא בכמות.",
+    "acceptedAnswers": ["3", "שלוש", "שלושה"],
+    "points": 2
+  },
+  {
+    "id": 4,
+    "type": "text",
+    "difficulty": "medium",
+    "title": "מי היו המכבים?",
+    "prompt": "תן תשובה קצרה: המכבים היו בעיקר…",
+    "hint": "כהנים ממשפחת חשמונאי.",
+    "acceptedAnswers": ["חשמונאים", "החשמונאים", "כהנים", "כוהנים", "משפחת חשמונאי", "משפחת חשמונאים"],
+    "points": 2
+  },
+  {
+    "id": 5,
+    "type": "image",
+    "difficulty": "easy",
+    "title": "מה רואים בתמונה?",
+    "prompt": "מה זה החפץ שבתמונה?",
+    "media": {
+      "type": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Dreidel.jpg/640px-Dreidel.jpg",
+      "alt": "סביבון"
+    },
+    "hint": "משחק שמסובבים ביד.",
+    "acceptedAnswers": ["סביבון", "דריידל", "dreidel"],
+    "points": 1
+  },
+  {
+    "id": 6,
+    "type": "image",
+    "difficulty": "medium",
+    "title": "חידה ויזואלית",
+    "prompt": "בתמונה יש רמז למילה אחת: מה המילה?",
+    "media": {
+      "type": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Candle_flame.jpg/640px-Candle_flame.jpg",
+      "alt": "להבת נר"
+    },
+    "hint": "קשור לאור.",
+    "acceptedAnswers": ["אור", "אש", "להבה"],
+    "points": 2
+  },
+  {
+    "id": 7,
+    "type": "video",
+    "difficulty": "medium",
+    "title": "סרטון קצר",
+    "prompt": "מה שם השיר שמופיע בסרטון? (רמז: חנוכה)",
+    "media": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/0v4i2O3D3vA",
+      "alt": "סרטון יוטיוב חנוכה"
+    },
+    "hint": "אפשר לענות גם: 'מעוז צור' אם זה מה שזיהית.",
+    "acceptedAnswers": ["מעוז צור", "מעוזצור", "maoz tzur", "maoztsur"],
+    "points": 2
+  },
+  {
+    "id": 8,
+    "type": "logic",
+    "difficulty": "hard",
+    "title": "היגיון: חלוקה לקבוצות",
+    "prompt": "יש 12 סופגניות ו-3 קבוצות. בכל סיבוב כל קבוצה מקבלת 1 סופגניה. כמה סיבובים אפשר לעשות עד שנגמר?",
+    "hint": "12 חלקי 3.",
+    "acceptedAnswers": ["4", "ארבע"],
+    "points": 3
+  },
+  {
+    "id": 9,
+    "type": "qr",
+    "difficulty": "easy",
+    "title": "QR חידה",
+    "prompt": "סרוק/י את ה-QR (או קרא/י את הטקסט אם אין סריקה): מה המילה המסתתרת?",
+    "media": {
+      "type": "qr",
+      "src": "חנוכה",
+      "alt": "QR עם המילה חנוכה"
+    },
+    "hint": "זה פשוט שם החג 🙂",
+    "acceptedAnswers": ["חנוכה", "hanukkah", "chanukah"],
+    "points": 1
+  },
+  {
+    "id": 10,
+    "type": "barcode",
+    "difficulty": "medium",
+    "title": "ברקוד (כתמונה)",
+    "prompt": "מה כתוב מתחת לברקוד בתמונה?",
+    "media": {
+      "type": "barcode",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/EAN-13-Barcode.svg/640px-EAN-13-Barcode.svg.png",
+      "alt": "דוגמת ברקוד EAN-13"
+    },
+    "hint": "חפש מספרים ארוכים.",
+    "acceptedAnswers": ["4006381333931", "4006381333931 "],
+    "points": 2
+  },
+  {
+    "id": 11,
+    "type": "wordplay",
+    "difficulty": "hard",
+    "title": "משחק מילים: נס",
+    "prompt": "השלם: \"נס גדול היה ____\" (מילה אחת).",
+    "hint": "על הסביבון בארץ…",
+    "acceptedAnswers": ["פה", "כאן"],
+    "points": 3
+  },
+  {
+    "id": 12,
+    "type": "text",
+    "difficulty": "medium",
+    "title": "מנהגי חנוכה",
+    "prompt": "ציין מאכל אחד שמקובל לאכול בחנוכה.",
+    "hint": "מטוגן…",
+    "acceptedAnswers": ["סופגנייה", "סופגניה", "לביבה", "לביבות", "ספינג'", "ספינג"],
+    "points": 2
+  }
+]
